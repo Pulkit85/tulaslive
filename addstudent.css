@@ -1,0 +1,993 @@
+
+.Profile {
+    text-align: center;
+    background-color: white;
+  }
+
+.header {
+    display: flex;
+    height: 90px;
+    
+}
+    .header-label{
+        margin-top: 28px;
+        margin-left: 10px;
+        width: 100px;
+        display: flex;
+    }
+        .header-label label{
+            font-size: 25px;
+        }
+    .header-logo{ 
+         display: flex;
+         margin-left: 380px;
+         margin-top: 6px;
+      }
+    .header-button{
+        margin-left: 270px;
+        display: flex;
+    }
+    .header-button button{
+        margin-top:30px; 
+        color: #03a030;
+        font-size: 14px;
+        height: 35px;
+        border: none;
+        width: 75px;
+        cursor:pointer;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
+    }
+    .header-button button:hover
+    {   width: 110px;
+        height: 40px;
+        border-radius: 6px;
+        color: white;
+         background-color:#03a030;
+         -ms-transform: scale(1,1); /* IE 9 */
+    -webkit-transform: scale(1,1); /* Safari */
+    transform: scale(1,1);
+	-webkit-box-shadow: 10px 10px 91px 0px #03a030;
+    -moz-box-shadow: 10px 10px 91px 0px #aebeb3;
+    box-shadow: 10px 10px 91px 0px #03a030;
+    }
+
+    .content{
+        height: 840px;
+        
+        position: relative;
+        
+    }
+    .colms
+    {
+        display: flex;
+        
+        justify-content: center;
+        align-content: space-between;
+        
+    }
+     
+        .firstcolm{
+            
+            font-weight: 450;
+            font-size: 20px;
+            
+            text-align: left;
+        }
+        
+        .label2{
+            
+            margin-top: 6px;
+        }
+        .label3{
+            
+            margin-top: 6px;
+        }
+        .label4{
+            
+            margin-top: 6px;
+        }
+        .label5{
+            
+            margin-top: 6px;
+        }
+        .label6{
+            
+            margin-top: 6px;
+        }
+        .label7{
+            
+            margin-top: 6px;
+        }
+        .label8{
+            
+            margin-top: 6px;
+        }
+        .label9{
+            
+            margin-top: 6px;
+        }
+        .label10{
+            
+            margin-top: 6px;
+        }
+        .label11{
+            
+            margin-top: 6px;
+        }
+        .label12{
+            
+            margin-top: 6px;
+        }
+        
+        .label12{
+            
+            margin-top: 6px;
+        }
+        .label13{
+            
+            margin-top: 6px;
+        }
+        .label14{
+            
+            margin-top: 6px;
+        }
+        .label15{
+            
+            margin-top: 6px;
+        }
+        .label16{
+            
+            margin-top: 6px;
+        }
+        .label17{
+            
+            margin-top: 6px;
+        }
+        .label18{
+            
+            margin-top: 6px;
+        }
+        .label19{
+            margin-top:2px;
+        
+        }
+        .label20{
+            
+            margin-top: 6px;
+        }
+        .label21{
+            
+            margin-top: 6px;
+        }
+        .label22{
+            
+            margin-top: 6px;
+        }
+        .label23{
+            
+            margin-top: 6px;
+        }
+        .label24{
+            
+            margin-top: 6px;
+        }
+        .label25{
+            
+            margin-top: 6px;
+        }
+        .label26{
+            
+            margin-top: 6px;
+        }
+        .label27{
+            margin-top:6px;
+        
+        }
+        .label28{
+            
+            margin-top: 6px;
+        }
+        
+        .text{
+            
+        }
+        .txt1
+        {  
+            margin-top: 45px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor: pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .txt1:hover,.txt1:focus        {  
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt2
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        
+        .txt2:hover,.txt2:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt3
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt3:hover,.txt3:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt4
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt4:hover,.txt4:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt5
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt5:hover,.txt5:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt6
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt6:hover,.txt6:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt7
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt7:hover,.txt7:focus
+        {   
+           
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt8
+        {   
+           margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt8:hover,.txt8:focus
+        {   
+           
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt9
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt9:hover,.txt9:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt10
+        {   
+            margin-top: 105px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt10:hover,.txt10:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt11
+        {   
+            margin-top:2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt11:hover,.txt11:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+
+        .txt12
+        {  
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor: pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .txt12:hover,.txt12:focus
+        {  
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt13
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        
+        .txt13:hover,.txt13:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt14
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt14:hover,.txt14:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt15
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt15:hover,.txt15:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt16
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt16:hover,.txt16:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt17
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt17:hover,.txt17:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt18
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt18:hover,.txt18:focus
+        {   
+           
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt19
+        {   
+           margin-top: 45px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt19:hover,.txt19:focus
+        {   
+           
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt20
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt20:hover,.txt20:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+
+        .txt21
+        {   
+            margin-top:2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt21:hover,.txt21:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+
+        .txt22
+        {  
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor: pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .txt22:hover,.txt22:focus
+        {  
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt23
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        
+        .txt23:hover,.txt23:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt24
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt24:hover,.txt24:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt25
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt25:hover,.txt25:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt26
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt26:hover,.txt26:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        .txt27
+        {   
+            margin-top: 2px;
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            cursor:pointer;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+        .txt27:hover,.txt27:focus
+        {   
+            
+            width: 300px;
+            height: 25px;
+            border-bottom-color: #03a030;
+            border-radius: 5px;
+            -ms-transform: scale(1.2,1.2); /* IE 9 */
+            -webkit-transform: scale(1.2,1.2); /* Safari */
+            transform: scale(1.2,1.2);
+            cursor:pointer;
+            -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+            -moz-box-shadow: 10px 10px 91px 0px #03a030;
+            box-shadow: 10px 10px 91px 0px #03a030;
+        }
+        
+        
+
+.secondcolm{
+    
+    
+    margin-top: 60px;
+    
+}
+
+
+.thirdcolm{
+    font-weight: 450;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.fourthcolm{
+    height: 500px;
+    margin-top: 60px;
+    
+}
+
+.content button{
+    margin-top:370px; 
+        color: #03a030;
+        font-size: 14px;
+        height: 35px;
+        border: none;
+        width: 75px;
+        cursor:pointer;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
+}
+.content button:hover{  
+     width: 110px;
+        height: 40px;
+        border-radius: 6px;
+        color: white;
+         background-color:#03a030;
+         -ms-transform: scale(1,1); /* IE 9 */
+    -webkit-transform: scale(1,1); /* Safari */
+    transform: scale(1,1);
+	-webkit-box-shadow: 10px 10px 91px 0px #03a030;
+    -moz-box-shadow: 10px 10px 91px 0px #aebeb3;
+    box-shadow: 10px 10px 91px 0px #03a030;
+    }
+
+        .footer{
+            height: 50px;
+            background-color: #03a030;
+            display: flex;
+            }
+            .footerh{
+                text-align: left;
+                margin-top: 4px;
+                font-size: 8px; 
+            }
+            .footer h2{
+                color: antiquewhite;
+            }
+
+

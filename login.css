@@ -1,0 +1,191 @@
+.Login {
+    text-align: center;
+    background-color: white;
+  }
+
+.header {
+    display: flex;
+    height: 90px;
+    
+}
+    .header-label{
+        margin-top: 28px;
+        margin-left: 10px;
+        width: 100px;
+        display: flex;
+    }
+        .header-label label{
+            font-size: 25px;
+        }
+    .header-logo{ 
+        margin-top: 2px;
+         display: flex;
+         margin-left: 380px;
+      }
+    .header-button{
+        margin-left: 270px;
+        display: flex;
+    }
+    .header-button button{
+        margin-top:30px; 
+        color: #03a030;
+        font-size: 14px;
+        height: 35px;
+        border: none;
+        width: 75px;
+        cursor:pointer;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
+    }
+    .header-button button:hover
+    {   width: 110px;
+        height: 35px;
+        border-radius: 6px;
+        color: white;
+         background-color:#03a030;
+         -ms-transform: scale(1,1); /* IE 9 */
+    -webkit-transform: scale(1,1); /* Safari */
+    transform: scale(1,1);
+	-webkit-box-shadow: 10px 10px 91px 0px #03a030;
+    -moz-box-shadow: 10px 10px 91px 0px #aebeb3;
+    box-shadow: 10px 10px 91px 0px #03a030;
+    }
+.content{
+    height: 517px;
+    justify-content: center;
+    display: flex;
+}
+.profile-image{
+    margin-left: 70px;
+    margin-top: 80px;
+    width: 160px;
+    height: 160px;
+    
+    }
+.img{
+    width: 140px;
+    height: 140px; 
+}
+.fill{
+    margin-top: 10px;
+    font-weight: 450;
+    display: inline-block;
+    
+}
+.text{
+    margin-top: 10px;
+    
+
+}
+
+
+    .txt1
+    {  
+        margin-top: 10px;
+        width: 300px;
+        height: 30px;
+        border-bottom-color: #03a030;
+        border-radius: 5px;
+        cursor:pointer;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
+    }
+    .txt1:hover,.txt1:focus
+    {  
+        
+        width: 300px;
+        height: 30px;
+        border-bottom-color: #03a030;
+        border-radius: 5px;
+        -ms-transform: scale(1.2,1.2); /* IE 9 */
+        -webkit-transform: scale(1.2,1.2); /* Safari */
+        transform: scale(1.2,1.2);
+        -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+        -moz-box-shadow: 10px 10px 91px 0px #03a030;
+        box-shadow: 10px 10px 91px 0px #03a030;
+    }
+
+    .txt2
+    {  
+        margin-top: 10px;
+        width: 300px;
+        height: 30px;
+        border-bottom-color: #03a030;
+        border-radius: 5px;
+        cursor:pointer;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s;
+    }
+    .txt2:focus,.txt2:hover
+    {  
+         width: 300px;
+        height: 30px;
+        border-bottom-color: #03a030;
+        border-radius: 5px;
+        -ms-transform: scale(1.2,1.2); /* IE 9 */
+        -webkit-transform: scale(1.2,1.2); /* Safari */
+        transform: scale(1.2,1.2);
+        -webkit-box-shadow: 10px 10px 91px 0px #03a030;
+        -moz-box-shadow: 10px 10px 91px 0px #03a030;
+        box-shadow: 10px 10px 91px 0px #03a030;
+    }
+    .text1 input{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .text2 input{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .btn{
+        margin-top: 10px;
+    }
+    .btn button{
+        color: #03a030;
+        font-size: 14px;
+        height: 35px;
+        border: none;
+        width: 75px;
+        cursor:pointer;
+        -webkit-transition: all 0.1s;
+        -moz-transition: all 0.1s;
+        transition: all 0.1s; 
+    } 
+    .btn button:hover{
+        width: 110px;
+        height: 35px;
+        border-radius: 6px;
+        color: white;
+         background-color:#03a030;
+         -ms-transform: scale(1,1); /* IE 9 */
+    -webkit-transform: scale(1,1); /* Safari */
+    transform: scale(1,1);
+	-webkit-box-shadow: 10px 10px 91px 0px #03a030;
+    -moz-box-shadow: 10px 10px 91px 0px #aebeb3;
+    box-shadow: 10px 10px 91px 0px #03a030;
+    }
+    .lbl{
+    
+        margin-top: 20px;
+    }
+    .lbl1{
+        font-size: 20px;
+
+    }
+
+.footer{
+    height: 50px;
+    background-color: #03a030;
+    display: flex;
+    }
+    .footerh{
+        text-align: left;
+        margin-top: 4px;
+        font-size: 8px; 
+    }
+    .footer h2{
+        color: antiquewhite;
+    }
